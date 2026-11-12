@@ -1,0 +1,14 @@
+:root{color-scheme:light dark}*{box-sizing:border-box}
+body{margin:0;padding:0 0 4rem;font:17px/1.65 ui-rounded,"SF Pro Rounded",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:#2a2733;background:#fdf8ec;-webkit-text-size-adjust:100%}
+header{background:linear-gradient(160deg,#ffe27a,#ffb347);padding:2rem 1.25rem 2.2rem;text-align:center}
+header .logo{width:84px;height:84px;border-radius:20px;box-shadow:0 6px 18px rgba(80,40,0,.25)}
+header h1{margin:.7rem 0 .1rem;font-size:2rem;line-height:1.15}header p{margin:0;font-weight:600;opacity:.8}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+nav{display:flex;gap:.6rem;justify-content:center;flex-wrap:wrap;margin:1.4rem 0 .4rem}
+nav a{background:#fff;color:#2a2733;text-decoration:none;font-weight:700;padding:.5rem 1.1rem;border-radius:99px;box-shadow:0 2px 0 #eadfc4}
+nav a.on{background:#f2545b;color:#fff;box-shadow:0 2px 0 #b5343b}
+h2{font-size:1.3rem;margin:2.2rem 0 .5rem}h3{font-size:1.05rem;margin:1.4rem 0 .3rem}
+a{color:#c2354a}ul{padding-left:1.35rem}li{margin:.35rem 0}
+.card{background:#fff;border-radius:20px;padding:1.1rem 1.3rem;margin:1.2rem 0;box-shadow:0 2px 0 #eadfc4}
+.foot{margin-top:3rem;padding-top:1.2rem;border-top:1px solid #eadfc4;font-size:.85rem;color:#6b6b76}
+@media(prefers-color-scheme:dark){body{color:#ecebf2;background:#17151d}nav a{background:#26232f;color:#ecebf2;box-shadow:0 2px 0 #0e0c12}nav a.on{background:#f2545b;color:#fff}.card{background:#221f2a;box-shadow:none}a{color:#ff8fa0}.foot{border-color:#2f2b39;color:#9a97a8}}
